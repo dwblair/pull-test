@@ -2,6 +2,8 @@ Try it out:
 
 user@comp:~$ chmod 755 ./pull
 
+user@comp:~$ pull -h
+
 usage: pull [-h] -p PATH [-v]
 
 optional arguments:
