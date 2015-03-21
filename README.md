@@ -16,8 +16,8 @@ optional arguments:
 
 **user@computer:~$** ./pull -p /dev/USB0
 
-/dev/USB0
+18.6
 
 **user@computer:~$** ./pull -p /dev/USB0 -v
 
-pulling sensor value from path /dev/USB0
+sensor value via path /dev/USB0: 18.6

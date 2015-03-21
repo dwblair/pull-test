@@ -8,7 +8,11 @@ parser.add_argument("-v", "--verbose", action="store_true", help="increase outpu
 
 args = parser.parse_args()
 
+# generate a dummy sensor value. in general, this would come from polling a sensor via args.path
+
+sensorValue=18.6
+
 if args.verbose:
-    print "pulling sensor value from path {}".format(args.path)
+    print "sensor value via path {}: {}".format(args.path, sensorValue)
 else:
-    print args.path
+    print sensorValue
