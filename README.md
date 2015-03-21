@@ -1,8 +1,8 @@
 Try it out:
 
-**user@comp:~$** chmod 755 ./pull
+**user@computer:~$** chmod 755 ./pull
 
-user@comp:~$ pull -h
+**user@computer:~$** pull -h
 
 usage: pull [-h] -p PATH [-v]
 
@@ -14,10 +14,10 @@ optional arguments:
 
   -v, --verbose         increase output verbosity
 
-user@comp:~$ ./pull -p /dev/USB0
+**user@computer:~$** ./pull -p /dev/USB0
 
 /dev/USB0
 
-user@comp:~$ ./pull -p /dev/USB0 -v
+**user@computer:~$** ./pull -p /dev/USB0 -v
 
 pulling sensor value from path /dev/USB0
