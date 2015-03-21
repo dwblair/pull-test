@@ -1,6 +1,6 @@
 Try it out:
 
-user@comp:~$ chmod 755 ./pull
+*user@comp:~$* chmod 755 ./pull
 
 user@comp:~$ pull -h
 
