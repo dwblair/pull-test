@@ -2,7 +2,7 @@ Try it out:
 
 **user@computer:~$** chmod 755 ./pull
 
-**user@computer:~$** pull -h
+**user@computer:~$** ./pull -h
 
 usage: pull [-h] -p PATH [-v]
 
