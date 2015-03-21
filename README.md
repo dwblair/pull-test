@@ -18,6 +18,16 @@ optional arguments:
 
 18.6
 
+**user@computer:~$** ./pull --path /dev/USB0
+
+18.6
+
+**user@computer:~$** ./pull
+
+usage: pull [-h] -p PATH [-v]
+
+pull: error: argument -p/--path is required
+
 **user@computer:~$** ./pull -p /dev/USB0 -v
 
 sensor value via path /dev/USB0: 18.6
