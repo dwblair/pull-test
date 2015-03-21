@@ -1,13 +1,13 @@
 Try it out:
 
-> $chmod 755 ./pull
+user@comp:~$ chmod 755 ./pull
+usage: pull [-h] -p PATH [-v]
 
-> $./pull -h
-
-> $./pull -p /dev/USB0
-
-> /dev/USB0
-
-> $./pull -p /dev/USB0 -v
-
-> pulling sensor value from path /dev/USB0
+optional arguments:
+  -h, --help            show this help message and exit
+  -p PATH, --path PATH  path to the sensor
+  -v, --verbose         increase output verbosity
+user@comp:~$ ./pull -p /dev/USB0
+/dev/USB0
+user@comp:~$ ./pull -p /dev/USB0 -v
+pulling sensor value from path /dev/USB0
